@@ -11,14 +11,14 @@ public class ClassroomImplementation implements ClassroomService {
 
 	@Override
 	public String createClassroom(String classroomJSON) {
-		// TODO Auto-generated method stub
-		return null;
+
+		return classRepo.createClassroom(classroomJSON);
 	}
 
 	@Override
 	public String getClassrooms() {
-		// TODO Auto-generated method stub
-		return null;
+
+		return classRepo.getClassrooms();
 	}
 
 }
