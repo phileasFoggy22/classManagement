@@ -28,4 +28,28 @@ public class ClassroomDBRepo implements ClassroomRepository {
 		return null;
 	}
 
+	@Override
+	public int countClassrooms() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public String deleteClassroom(int classID) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String updateClassroom(int classID, String class1) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getClassroom(int classID) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
